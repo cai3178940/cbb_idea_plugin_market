@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The <plugins> element contains the description of the plugins available at this repository. Required.
+-->
+<plugins>
+  <!--
+    Each <plugin> element describes one plugin in the repository. Required.
+    id - used by JetBrains IDEs to uniquely identify a plugin. Required. Must match <id> in plugin.xml
+    url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
+    version - version of this plugin. Required. Must match <version> in plugin.xml
+  -->
+  <plugin id="cbb_idea_plugin_github" url="https://cai3178940.github.io/cbb_idea_plugin_market/cbb_idea_plugin-1.2.0-SNAPSHOT.jar" version="1.2.0">
+	<name>cbb_idea_plugin</name>
+	<vendor email="caibinbing@jd.com" url="https://github.com/cai3178940">cbb</vendor>
+    <idea-version since-build="201.*" until-build="*.*" />
+	<description><![CDATA[
+        <h2>cbb_idea_plugin</h2>
+        <p>cbb的自用插件</p>
+    ]]></description>
+	<change-notes></change-notes>
+  </plugin>
+</plugins>
