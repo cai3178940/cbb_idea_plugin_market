@@ -1,2 +1,2 @@
 # cbb_idea_plugin_market
-我的intellij_idea插件市场
+我的自用插件仓库
