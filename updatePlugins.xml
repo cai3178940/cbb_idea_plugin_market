@@ -9,7 +9,7 @@
     url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
     version - version of this plugin. Required. Must match <version> in plugin.xml
   -->
-  <plugin id="cbb_idea_plugin_github" url="https://cai3178940.github.io/cbb_idea_plugin_market/cbb_idea_plugin-1.3.0-SNAPSHOT.jar" version="1.3.0">
+  <plugin id="cbb_idea_plugin_github" url="https://cai3178940.github.io/cbb_idea_plugin_market/cbb_idea_plugin-1.4.0-SNAPSHOT.jar" version="1.4.0">
 	<name>cbb_idea_plugin</name>
 	<vendor email="caibinbing@jd.com" url="https://github.com/cai3178940">cbb</vendor>
     <idea-version since-build="201.*" until-build="*.*" />
